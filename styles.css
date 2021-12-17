@@ -38,6 +38,10 @@ body {
     width: 100%;
 }
 
+.about-me-photo {
+    width: 20%
+}
+
 /* Nav Bar */
 .topnav {
     background-color: rgba(41, 41, 41, 0);
