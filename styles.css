@@ -1,0 +1,128 @@
+@viewport {
+    width: device-width ;
+    zoom: 1.0 ;
+} 
+
+/* For mobile phones: 
+[class*="col-"] {
+    width: 100%;
+}*/
+
+/* Background Image */
+html { 
+    background: url(img/background.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    background: url(img/background.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+    font-weight: bold;
+}
+
+.options {
+    font-size: 35px;
+    letter-spacing: -1px;
+    display: block;
+}
+
+.gallery-item {
+    height: 100%;
+    width: 100%;
+}
+
+/* Nav Bar */
+.topnav {
+    background-color: rgba(41, 41, 41, 0);
+    overflow: hidden;
+    letter-spacing: 0px;
+    top: 0; 
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+  
+/* Nav Bar Links */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* Nav Bar Hover */
+.topnav a:hover {
+    background-color: rgba(41, 41, 41, 0);
+    color: white;
+    text-decoration: none;
+}
+
+.topnav a::before {
+    content: "";
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: #ff3000;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.5s ease;
+}
+  
+.topnav a:hover::before {
+    transform: scaleX(1);
+}
+
+/* Current Page */
+.topnav a.active {
+    background-color: rgba(255, 48, 0, 100%);
+    color: white;
+    content: "";
+    display: block;
+    height: -1px;
+    bottom: 0;
+    left: 0;
+}
+
+/* Main Page Options */
+.options a {
+    position: relative;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+  
+.options a:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+  
+.options a::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 96%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: #ff3000;
+    transform: scaleX(0);
+    transform-origin: top left;
+    transition: transform 0.5s ease;
+}
+  
+.options a:hover::before {
+    transform: scaleX(1);
+}
+
+ 
