@@ -6,55 +6,96 @@
     <title> Portfolio - Shash Comandur </title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../portfolio-style.css">
     <link rel="shortcut icon" type="image/png" href="../img/FISHCOUPE ALPHA.png"/>
 </head>
+
+<script>
+    function openModal() {
+      document.getElementById("myModal").style.display = "block";
+    }
+    
+    function closeModal() {
+      document.getElementById("myModal").style.display = "none";
+    }
+    
+    var slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("demo");
+      var captionText = document.getElementById("caption");
+      if (n > slides.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+      captionText.innerHTML = dots[slideIndex-1].alt;
+    }
+</script>
 
 <body>
     <!-- Navigation Bar -->
     <div class="container-fluid">
         <div class="topnav">
             <a href="../index.html"> HOME </a>
+            <a class="active" href="portfolio.html"> PORTFOLIO </a>
+            <a href="projects.html"> PROJECTS </a>
             <a href="about-me.html"> ABOUT ME </a>
             <a href="contact.html"> CONTACT </a>
-            <a href="projects.html"> PROJECTS </a>
-            <a class="active" href="portfolio.html"> PORTFOLIO </a>
         </div>
     </div>
 
-    <div class="container-fluid" style="padding-top: 1%;">
-        <div class="row" style="padding-bottom: 1%;">
-            <div class="col-sm-3">
+    <!-- Page Content-->
+    <div class="container-fluid" style="padding-top: 20px;">
+        <div class="row">
+            <div class="col-sm-3" style="padding-bottom: 20px;">
                 <img class="gallery-item" src="../img/Portfolio/ALGORITHM.png">
             </div>
-            <div class="col-sm-3">
+            <div class="col-sm-3" style="padding-bottom: 20px;">
                 <img class="gallery-item" src="../img/Portfolio/DEPTH CHARGE.png">
             </div>
-            <div class="col-sm-3">
+            <div class="col-sm-3" style="padding-bottom: 20px;">
                 <img class="gallery-item" src="../img/Portfolio/FIT CHECK.png">
             </div>
-            <div class="col-sm-3">
+            <div class="col-sm-3" style="padding-bottom: 20px;">
                 <img class="gallery-item" src="../img/Portfolio/QUILT.png">
             </div>
         </div>
-        <div class="row" style="padding-bottom: 1%;">
-            <div class="col-sm-3">
+        <div class="row">
+            <div class="col-sm-3" style="padding-bottom: 20px;">
                 <img class="gallery-item" src="../img/Portfolio/SAINT RAMARICUS.png">
             </div>
-            <div class="col-sm-3">
+            <div class="col-sm-3" style="padding-bottom: 20px;">
                 <img class="gallery-item" src="../img/Portfolio/MIDNIGHT ELECTRIC SKY 1.png">
             </div>
-            <div class="col-sm-3">
+            <div class="col-sm-3" style="padding-bottom: 20px;">
                 <img class="gallery-item" src="../img/Portfolio/MIDNIGHT ELECTRIC SKY 2.png">
             </div>
-            <div class="col-sm-3">
+            <div class="col-sm-3" style="padding-bottom: 20px;">
                 <img class="gallery-item" src="../img/Portfolio/MIDNIGHT ELECTRIC SKY 3.png">
             </div>
         </div>
-        <div class="row" style="padding-bottom: 1%;">
-            <div class="col-sm-3">
+        <div class="row">
+            <div class="col-sm-3" style="padding-bottom: 20px;">
                 <img class="gallery-item" src="../img/Portfolio/IMPERIAL_1.png">
             </div>
-            <div class="col-sm-3">
+            <div class="col-sm-3" style="padding-bottom: 20px;">
                 <img class="gallery-item" src="../img/Portfolio/IMPERIAL_2.png">
             </div>
         </div>
