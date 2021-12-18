@@ -34,7 +34,7 @@ adds the zoom-in transition. */
     -moz-transition: .5s ease-in-out;
     -o-transition: .5s ease-in-out;
     transition: .5s ease-in-out;
-    height: 80%;
+    height: 100%;
     width: auto;
 }
 
