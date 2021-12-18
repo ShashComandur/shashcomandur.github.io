@@ -34,8 +34,9 @@ adds the zoom-in transition. */
     -moz-transition: .5s ease-in-out;
     -o-transition: .5s ease-in-out;
     transition: .5s ease-in-out;
-    height: 80%;
+    height: 90%;
     width: auto;
+    object-fit: cover;
 }
 
 /* Styles the close link, adds the slide down transition */
