@@ -25,6 +25,8 @@ body {
     background-size: cover;
     color: white;
     font-weight: bold;
+    font-size: 25px;
+    letter-spacing: -1.5px;
 }
 
 .options {
@@ -35,6 +37,15 @@ body {
 
 .about-me-photo {
     width: 50%
+}
+
+.contact-info {
+    font-size: 35px;
+    letter-spacing: -2px;
+    position: relative; 
+    width: 100%; 
+    margin: auto; 
+    text-align: center;
 }
 
 /* Nav Bar */
