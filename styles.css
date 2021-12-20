@@ -3,11 +3,6 @@
     zoom: 1.0 ;
 } 
 
-/* For mobile phones: 
-[class*="col-"] {
-    width: 100%;
-}*/
-
 /* Background Image */
 html { 
     background: url(img/background.png) no-repeat center center fixed; 
@@ -47,6 +42,7 @@ body {
     margin: auto; 
     text-align: center;
 }
+
 
 /* Nav Bar */
 .topnav {
