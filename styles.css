@@ -31,9 +31,12 @@ body {
 }
 
 .about-me-photo {
-    width: 100%;
+    width: 105%;
     border: 5px solid #55ff00;
     margin-top: 1%;
+    margin-bottom: 20px;
+    text-align: right;
+    ;
 }
 .contact-info {
     font-size: 35px;
