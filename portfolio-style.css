@@ -3,6 +3,11 @@ a.lightbox img  {
     width: 100%;
 }
 
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
+
 /* Styles the background of the lightbox */
 .lightbox-target {
     position: fixed;

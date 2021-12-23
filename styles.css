@@ -1,7 +1,7 @@
 @viewport {
     width: device-width ;
     zoom: 1.0 ;
-} 
+}
 
 /* Background Image */
 html { 
@@ -10,8 +10,6 @@ html {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background-size:100%;
-    width:100%;
 }
 
 body {
