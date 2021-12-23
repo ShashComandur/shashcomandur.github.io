@@ -3,27 +3,15 @@
     zoom: 1.0 ;
 }
 
-/* Background Image */
-html { 
-    background: url(img/background.png) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
 
 body {
-    background: url(img/background.png) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
     color: white;
     font-weight: bold;
     font-size: 25px;
     letter-spacing: -1.5px;
 }
 
+/* Background Image */
 .background {
     background-size: cover;
     position: absolute;
