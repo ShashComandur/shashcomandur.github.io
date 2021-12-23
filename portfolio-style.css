@@ -3,8 +3,9 @@ a.lightbox img  {
     width: 100%;
 }
 
-.vertical-align {
+.row{
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 
