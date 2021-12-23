@@ -38,6 +38,11 @@ body {
     text-align: right;
     ;
 }
+
+.about-me-links {
+    width:20%;
+    align-content: center;
+}
 .contact-info {
     font-size: 35px;
     letter-spacing: -2px;
