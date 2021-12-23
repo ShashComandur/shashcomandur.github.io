@@ -30,13 +30,20 @@ body {
     display: block;
 }
 
+.about-me-text {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: -1.5px;
+    line-height: 23px;
+}
+
 .about-me-photo {
     width: 100%;
     border: 5px solid #55ff00;
     margin-top: 1%;
     margin-bottom: 20px;
     text-align: right;
-    ;
 }
 
 .about-me-links {
@@ -51,7 +58,6 @@ body {
     margin: auto; 
     text-align: center;
 }
-
 
 /* Nav Bar */
 .topnav {
