@@ -5,11 +5,12 @@
 
 /* Background Image */
 html { 
-    background-color: #393939;
+    background-color: #1b1b1b;
 }
 
 body {
-    background-color: #393939;
+    background-color: #1b1b1b;
+    height: 100vh;
     color: white;
     font-weight: bold;
     font-size: 25px;
@@ -53,10 +54,11 @@ body {
 
 /* Nav Bar */
 .topnav {
-    background-color: rgba(41, 41, 41, 0);
+    background-color: rgb(0, 0, 0, 0);
     overflow: hidden;
     letter-spacing: 0px;
-    top: 0; 
+    top: 0;
+    left: 0;
     width: 100%;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
