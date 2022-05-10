@@ -17,6 +17,11 @@ body {
     letter-spacing: -1.5px;
 }
 
+.heading {
+    font-weight: bold;
+    font-size: 75px;
+}
+
 .options {
     font-size: 35px;
     letter-spacing: -1px;
