@@ -1,0 +1,29 @@
+.about-me-text {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: -1.5px;
+    line-height: 23px;
+}
+  
+.about-me-photo {
+    width: 100%;
+    border: 5px solid #55ff00;
+    margin-top: 1%;
+    margin-bottom: 20px;
+    text-align: right;
+}
+  
+.about-me-links {
+    width:20%;
+    align-content: center;
+}
+
+.contact-info {
+    font-size: 35px;
+    letter-spacing: -2px;
+    position: relative; 
+    width: 100%; 
+    margin: auto; 
+    text-align: center;
+}
